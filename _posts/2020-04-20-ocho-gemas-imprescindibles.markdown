@@ -17,21 +17,21 @@ Ruby es un lenguaje de programación *Open Source*, eso significa que hay una co
 
 Así, si tu aplicación necesita autenticar usuarios puedes instalar una gema que implemente autenticación. No necesitas desarrollarlo tu mismo. Y hay gemas para muchas cosas, para autorizar usuarios, buscar textos, convertir documentos, acceder a bases de datos o cambiar los colores de textos.
 
-Como es Open Source puedes acceder al código de las gemas, y mejorarlo o adaptarlo, para luego compartirlo con otros desarrolladores. Las gemas compartidas por la comunidad se pueden encontrar en https://rubygems.org/
+Como es Open Source puedes acceder al código de las gemas, y mejorarlo o adaptarlo, para luego compartirlo con otros desarrolladores. Las gemas compartidas por la comunidad se pueden encontrar en [RubyGems.org](https://rubygems.org/)
 
 Como se puede ver en la imagen, hay más de 159.000 gemas, que se han descargado más de 50.000 millones de veces. Entre tantas gemas hay muchas funcionalidades, así que un poco de ayuda para poder elegir siempre viene bien.
 
 ## ¿ASPgems que gemas usa?
-En [ASPgems](http://aspgems.com "ASPgems") se usan muchas gemas, a veces se pueden escoger al realizar un nuevo proyecto pero otras veces hay que trabajar con las gemas que el proyecto ya esté utilizando. Pero la experiencia hace que si puedes elegir que gema usar, ya sepas cuál vas a usar.
+En [ASPgems](http://aspgems.com "ASPgems") se usan muchas gemas, a veces se pueden escoger al realizar un nuevo proyecto pero otras veces hay que trabajar con las gemas que el proyecto ya esté utilizando. Pero la experiencia hace que si puedes elegir que gema usar para implementar cada funcionalidad, ya sepas cuál vas a usar. Aún así, a veces puedes tener dudas sobre cúal escoger.
 
-La empresa tiene una [lista de gemas](http://https://aspgems.gitbook.io/playbook/rails-1/gemas-oficiales "lista de gemas") consideradas imprescindibles, de forma que si necesitas la funcionalidad que ofrecen son las que vas a usar. Todas las gemas en la lista
+La empresa tiene una [lista de gemas](http://https://aspgems.gitbook.io/playbook/rails-1/gemas-oficiales "lista de gemas") consideradas imprescindibles, de forma que si necesitas la funcionalidad que ofrecen son las que vas a usar. Todas las gemas en la lista cumplen su cometido, pero no son las únicas. Así, en caso de duda, rompa el cristal y use la gema.
 
 El orden de la lista no tiene importancia.
 
 ### `activeadmin`
 Con más de 8 millones de descargas y 25.000 repositorios de Github que la usan.
 
-Permite a los desarrolladores crear rápidamente paneles de administración, dashboards, con aspecto profesional y visual agradable.
+Permite a los desarrolladores crear rápidamente paneles de administración, *dashboards*, con aspecto profesional y visual agradable.
 
 ### `devise`
 72 millones de descargas y usado por 316.000 repositorios.
@@ -75,7 +75,7 @@ Y de regalo, otra gema que no está en la lista de la empresa aunque se usa, per
 ### `rubocop`
 93 millones de descargas y usada en 85 repositorios.
 
-Es un analizador de código y puede dar formato al código. Sirve para seguir unas reglas de estilo decididas por la comunidad, pero permite adaptarlas a la idiosincrasia de cada equipo o proyecto. En equipos grandes permite que, al seguir unas reglas comunes, el código sea parecido en toda la aplicación.
+Es un analizador de código y puede dar formato al mismo de forma automática. Sirve para seguir unas reglas de estilo decididas por la comunidad, pero permite adaptarlas a la idiosincrasia de cada equipo o proyecto. En equipos grandes permite que, al seguir unas reglas comunes, el código sea parecido en toda la aplicación.
 
 Personalmente me ha servido para aprender mucho sobre Ruby, pues aunque se puede programar de muchas formas diferentes una solución a un problema, no todas las soluciones se entienden o son igual de sencillas de mantener.
 

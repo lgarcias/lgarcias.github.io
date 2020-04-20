@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "8 gemas imprescindibles y otra de regalo"
-date:   2020-04-21 00:00:00 +0200
+date:   2020-04-20 00:00:00 +0200
 categories: ruby rails aspgems gems desarrollo
 ---
 
@@ -40,27 +40,27 @@ Cerca de 18 millones de descargas y 19.000 repositorios.
 
 Pundit te ofrece una serie de *helpers* que te ayudarán a construir un sistema de autorización robusto y ampliable. Se basa en definir una serie de políticas de acceso sobre cada usuario y modelo de datos que se quiere controlar.
 
-###`chamber`
+### `chamber`
 155.000 descargas.
 
 Esta gema permite administrar de forma muy sencilla y flexible las configuraciones (*settings*) de tu aplicación. No es una gema tan popular como otras similares con muchas más descargas, pero las opciones que ofrece esta gema son difíciles de superar.
 
-###`factory_bot`
+### `factory_bot`
 Usado por 51.000 repositorios, con 33 millones de descargas.
 
 Factory_bot reemplaza el uso de *fixtures*, y su uso en los test permite crear rápidamente los objetos necesarios. Puede generar automáticamente factorías y permite el uso de múltiples factorías para una misma clase.
 
-###`after_party`
+### `after_party`
 476.000 descargas.
 
 After party permite crear y administrar la ejecución de tareas automáticas. Funciona como las migraciones pero para tareas *rake* especiales. Normalmente se ejecutan después de que una migración de datos se ha completado, pero es posible ejecutar las tareas de forma manual. Por defecto, estas tareas sólo se ejecutan una vez para cada entorno, la primera vez que se despliega, como una migración.
 
-###`kaminari`
+### `kaminari`
 Más de 56 millones de descargas, y usado en más de 100 mil repositorios.
 
 Cuando tienes que mostrar datos en una página web, por ejemplo una lista de productos, no interesa que sea una lista completa. Kaminari permite mostrar esos datos en páginas con una cantidad limitada, de forma que la página carga rápidamente. Es muy fácil de configurar y la gema se encarga de casi todo.
 
-###`rspec`
+### `rspec`
 479 millones de descargas, lo encuentras en más de 360 mil repositorios.
 
 Esta es una de las grandes entre las gemas, rspec permite hacer BDD (*Behaviour Driven Development*) en Ruby. Rspec depende de otras gemas que se pueden instalar por separado, y sólo es necesario instalar aquellas cuya funcionalidad quieras tener disponible. Si quieres hacer test en Ruby esta es tu gema.
@@ -69,7 +69,7 @@ Según las estadísticas de RubyGem.org es, junto al resto del conjunto de gemas
 
 
 Y de regalo, otra gema que no está en la lista de la empresa aunque se usa, pero que creo que debería estar:
-###`rubocop`
+### `rubocop`
 93 millones de descargas y usado en 85 repositorios.
 
 Es un analizador de código y puede dar formato al código. Sirve para seguir unas reglas de estilo decididas por la comunidad, pero permite adaptarlas a la idiosincrasia de cada equipo o proyecto. En equipos grandes permite que, al seguir unas reglas comunes, el código sea parecido en toda la aplicación.

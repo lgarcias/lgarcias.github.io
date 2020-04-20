@@ -31,7 +31,7 @@ twitter_username: garciasubirachs
 github_username:  lgarcias
 
 # Build settings
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
 
